@@ -1,7 +1,5 @@
 import React from "react";
-import Amstrong from "./Components/Amstrong"
-import NaturalNumbers from "./Components/NaturalNumbers";
-import Factorial from "./Components/Factorial";
+import Factorial from "./Factorial"
 
 function App(){
   return(
