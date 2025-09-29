@@ -16,8 +16,7 @@ function Factorial() {
     <div className="box">
       <h3>Factorial:</h3>
       <label htmlFor="nmb">Number: </label>
-      <input id="nmb" type="number" value={num} onChange={(e)=>setNum(Number(e.target.value))}
-      />
+      <input id="nmb" type="number" value={num} onChange={(e)=>setNum(Number(e.target.value))}/>
       <button className="btn" onClick={fct}>Check</button>
       <h1>{disp}</h1>
     </div>
